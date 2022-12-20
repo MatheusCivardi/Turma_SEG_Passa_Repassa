@@ -6,13 +6,13 @@ Turma_SEG_Passa_Repassa
 
 Entrega final da disciplina de Sistemas Embarcados
 
-- Damiana Irrera 13470819
+- Damiana Irrera - 13470819
 
 - Eduardo Leandro Moura Santos Junior - 10746665
 
 - Jaime Fernández Antón - 14029936
 
-- João
+- João Pedro Gerin Santana - 11372646
 
 - Matheus Willian Dias Civardi - 10746918
 
