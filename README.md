@@ -30,6 +30,8 @@ Ao receber a resposta, o apresentador confirma se está correta com o Botão_1 e
 
 ### Simulação para arduíno
 
+![arduino](https://user-images.githubusercontent.com/55711155/208699131-eb9ca0cc-3d72-4f79-b624-c72c1397c393.jpg)
+
 https://www.tinkercad.com/things/8iJnDNLYs39-tremendous-kasi-fyyran/editel?sharecode=HrzCFBhRZdAZV3fku4KeVITCv4ZBR2jl43VvOi-vuQI
 
 Antes da placa da toradex ser utilizada, foram realizados alguns testes utilizando o tinkercad para simular tanto o hardware quanto o software.
@@ -37,3 +39,5 @@ Assim, quando foi possível acessar a salinha foram necessários apenas algumas 
 
 ## Exemplos de rotina
 ### Primeiro exemplo de rotina 
+
+![Rotina_1](https://user-images.githubusercontent.com/55711155/208699374-acec70f8-2f22-4988-a640-5d9b4c5c91ad.jpg)
