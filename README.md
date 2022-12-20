@@ -73,3 +73,33 @@ Assim, quando foi possível acessar a salinha foram necessários apenas algumas 
 Não havia botões disponíveis na salinha para realizarmos o teste completo do jogo, então, foi utilizado apenas um botão para testar no hardware da Toradex se todo o processo de compilação do código e utilização dos pinos GPIO estavam funcionando corretamente. (Vídeo)
 
 https://user-images.githubusercontent.com/55711155/208715237-023c0279-4d66-446a-a774-dc47a585e4c1.mp4
+
+Para passar o código de teste do botão para a placa, inicialmente abriu-se um terminal para a conexão via rede com a placa, através do comando no terminal:
+
+<blockquote>
+        <p>ssh root@ip</p>
+    </blockquote>
+    
+Em outro terminal, responsável por ser o host, com a toolchain própria já instalada, exportam-se as variáveis para compilação cruzada pelo comando:
+
+<blockquote>
+        <p>. environmnt-setup-armv7at2hf-non-angstrom-linux-gnueabi</p>
+    </blockquote>
+    
+Após isso, podemos compilar o código em C para a placa pelo comando:
+
+<blockquote>
+        <p> ${CC} -Wall codigo.c -o codigo</p>
+    </blockquote>
+    
+O envio do código para a placa é feito pela instrução:
+
+<blockquote>
+        <p>scp codigo root@ip:/home/root</p>
+    </blockquote>
+    
+Retornando ao terminal em que foi feita a conexão com a placa, basta executar o código:
+
+<blockquote>
+        <p>./codigo</p>
+    </blockquote>
