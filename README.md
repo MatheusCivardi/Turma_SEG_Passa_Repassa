@@ -3,6 +3,7 @@
 ## Equipe
 
 Turma_SEG_Passa_Repassa
+
 Entrega final da disciplina de Sistemas Embarcados
 
 Damiana
@@ -44,18 +45,18 @@ Assim, quando foi possível acessar a salinha foram necessários apenas algumas 
 
 ![Rotina_1](https://user-images.githubusercontent.com/55711155/208699374-acec70f8-2f22-4988-a640-5d9b4c5c91ad.jpg)
 
-Nesse exemplo, ao rodar o código o jogo se inicia com ambas as equipes com suas pontuações zeradas;
+- Nesse exemplo, ao rodar o código o jogo se inicia com ambas as equipes com suas pontuações zeradas;
 
-O apresentador com o Botão_1 apresenta a pergunta aos grupos;
+- O apresentador com o Botão_1 apresenta a pergunta aos grupos;
 
-O grupo 1 (Botão_2) aperta o botão antes do grupo 2, conquistando o direito à resposta;
+- O grupo 1 (Botão_2) aperta o botão antes do grupo 2, conquistando o direito à resposta;
 
-O apresentador confirma que a resposta está correta com o Botão_1, o grupo 1 ganha 1 ponto;
+- O apresentador confirma que a resposta está correta com o Botão_1, o grupo 1 ganha 1 ponto;
 
-Na nova pergunta o grupo 2 (Botão_3) aperta primeiro, conseguindo o direito à resposta;
+- Na nova pergunta o grupo 2 (Botão_3) aperta primeiro, conseguindo o direito à resposta;
 
-Dessa vez o apresentador pressiona o Botão_4 indicando que a resposta está errada, passando a chance de resposta para o grupo 1;
+- Dessa vez o apresentador pressiona o Botão_4 indicando que a resposta está errada, passando a chance de resposta para o grupo 1;
 
-O grupo 1 também erra, então o score é atualizado novamente, com nenhuma das equipes conseguindo ponto;
+- O grupo 1 também erra, então o score é atualizado novamente, com nenhuma das equipes conseguindo ponto;
 
-Agora, ao invés do apresentador iniciar outra pergunta com o Botão_1, ele pressiona o Botão_4 zerando as pontuações e resetando o jogo.
+- Agora, ao invés do apresentador iniciar outra pergunta com o Botão_1, ele pressiona o Botão_4 zerando as pontuações e resetando o jogo.
