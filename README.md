@@ -72,4 +72,4 @@ Assim, quando foi possível acessar a salinha foram necessários apenas algumas 
 
 Não havia botões disponíveis na salinha para realizarmos o teste completo do jogo, então, foi utilizado apenas um botão para testar no hardware da Toradex se todo o processo de compilação do código e utilização dos pinos GPIO estavam funcionando corretamente. (Vídeo)
 
-
+https://user-images.githubusercontent.com/55711155/208715237-023c0279-4d66-446a-a774-dc47a585e4c1.mp4
