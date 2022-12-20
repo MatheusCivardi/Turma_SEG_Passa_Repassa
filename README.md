@@ -23,8 +23,11 @@ O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no e
 O sistema funciona exibindo os resultados diretamente no prompt de comando, o qual o apresentador teria acesso. São 4 botões:
 
 1 - Apresenta a pergunta / Comfirma que a resposta está correta
+
 2 - Informa que o participante 1 apertou o botão
+
 3 - Informa que o participante 2 apertou o botão
+
 4 - Reseta o jogo / Comfirma que a resposta está errada
 
 A funcionalidade dos botões depende do estado em que se encontra o jogo, por exemplo, os botões 1 e 2 não retornam nada enquando pergunta não for realizada.
@@ -62,3 +65,11 @@ Assim, quando foi possível acessar a salinha foram necessários apenas algumas 
 - O grupo 1 também erra, então o score é atualizado novamente, com nenhuma das equipes conseguindo ponto;
 
 - Agora, ao invés do apresentador iniciar outra pergunta com o Botão_1, ele pressiona o Botão_4 zerando as pontuações e resetando o jogo.
+
+## Rodando na placa da Toradex
+
+![Toradex](https://user-images.githubusercontent.com/55711155/208714192-f3573bb0-6233-452d-993e-5e676c92870e.jpg)
+
+Não havia botões disponíveis na salinha para realizarmos o teste completo do jogo, então, foi utilizado apenas um botão para testar no hardware da Toradex se todo o processo de compilação do código e utilização dos pinos GPIO estavam funcionando corretamente. (Vídeo)
+
+
