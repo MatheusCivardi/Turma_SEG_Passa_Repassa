@@ -115,7 +115,7 @@ Retornando ao terminal em que foi feita a conexão com a placa, basta executar o
 Antes de tudo, deve ficar claro que a taxa de atualização da placa é maior que a velocidade com que a pessoa pressiona o botão. Se houver uma diferença no momento de pressionar o botão, essa diferença será detectada com certeza. Supondo que os botões foram pressionados ao mesmo tempo, pela forma como o código está estruturado, o grupo 1 tem preferência, mas isso é praticamente impossível.
 
 
-## Possiíveis implementações
+## Possíveis implementações
 
 A continuação, se mostram algumas possíveis implementações futuras que poderiam ser feitas usando este projeto como um ponto de partida:
 
