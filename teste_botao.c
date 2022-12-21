@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <string.h>
 
-#define b1 "88"
+#define b1 "88" //pino 10 da viola
 
 char readb(char b[]) {
     int fd;
