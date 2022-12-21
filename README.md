@@ -106,4 +106,4 @@ Retornando ao terminal em que foi feita a conexão com a placa, basta executar o
     
 ## Tratamento de colisão
 
-Antes de tudo, deve ficar claro que a taxa de coleta de dados da placa é maior que a velocidade com que a pessoa pressiona o botão. 
+Antes de tudo, deve ficar claro que a taxa de coleta de dados da placa é maior que a velocidade com que a pessoa pressiona o botão. Se houver uma diferença no momento de pressionar o botão, essa diferença será detectada com certeza.
