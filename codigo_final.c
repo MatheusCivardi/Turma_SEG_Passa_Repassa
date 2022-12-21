@@ -6,10 +6,10 @@
 
 //exports
 
-#define b1 "10"
-#define b2 "10"
-#define b3 "10"
-#define b4 "10"
+#define b1 "88" //pino 10 da viola
+#define b2 "89" //pino 8 da viola
+#define b3 "38" //pino 18 da viola
+#define b4 "39" //pino 17 da viola
 
 //funcao para ler valor do botao
 char readb(char b[]) {
