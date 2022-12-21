@@ -2,9 +2,11 @@
 
 ## Equipe
 
-Turma_SEG_Passa_Repassa
+Turma_SEG
 
-Entrega final da disciplina de Sistemas Embarcados
+Tema: Passa ou Repassa
+
+Entrega final da disciplina de Sistemas Embarcados (SAA0356)
 
 - Matheus Willian Dias Civardi - 10746918
 
