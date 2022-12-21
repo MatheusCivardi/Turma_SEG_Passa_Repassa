@@ -118,3 +118,5 @@ Antes de tudo, deve ficar claro que a taxa de atualização da placa é maior qu
 ## Possiíveis implementações
 
 A continuação, se mostram algumas possíveis implementações futuras que poderiam ser feitas usando este projeto como um ponto de partida:
+
+- Implementação de mais botões, para que mais equipes pudessem participar.
