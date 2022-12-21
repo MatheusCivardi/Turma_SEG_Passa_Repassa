@@ -122,3 +122,5 @@ A continuação, se mostram algumas possíveis implementações futuras que pode
 - Implementação de mais botões, para que mais equipes pudessem participar.
 
 - Habilitar uma tela digital para mostrar os pontos obtidos por cada equipe.
+
+- Foco no tipo de respostas que o sistema pode aceitar: abertas, de múltipla escolha, verdadeiras ou falsas. 
