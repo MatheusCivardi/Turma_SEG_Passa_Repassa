@@ -6,18 +6,24 @@ Turma_SEG_Passa_Repassa
 
 Entrega final da disciplina de Sistemas Embarcados
 
-- Damiana Irrera - 13470819
-
-- Eduardo Leandro Moura Santos Junior - 10746665
+- Matheus Willian Dias Civardi - 10746918
 
 - Jaime Fernández Antón - 14029936
 
 - João Pedro Gerin Santana - 11372646
 
-- Matheus Willian Dias Civardi - 10746918
+- Damiana Irrera - 13470819
+
+- Eduardo Leandro Moura Santos Junior - 10746665
 
 ## Introdução
-O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no estilo pergunta e resposta. Resumidamente, o apresentador faz a pergunta e o participante/equipe que apertar o botão mais rapidamente tem o direito à resposta. No nosso projeto foram idealizados 4 botões, 2 dedicados aos participantes, para verificar quem deles terá o direito à resposta, e outros 2 ao apresentador, que indicaram se a resposta está correta ou errada. Com o encerramento do jogo, ganha a equipe que estiver com o maior score de respostas corretas.
+O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no estilo pergunta e resposta. Resumidamente, o apresentador faz a pergunta e o participante/equipe que apertar o botão mais rapidamente tem o direito à responder. No nosso projeto, foram idealizados 4 botões:
+
+- 2 dedicados aos participantes, para verificar quem deles terá o direito à resposta.
+
+- 2 ao apresentador, que indicaram se a resposta está correta ou errada. 
+
+Com o encerramento do jogo, ganha a equipe que estiver com o maior score de respostas corretas.
 
 ## Arquitetura e funcionamento
 O sistema funciona exibindo os resultados diretamente no prompt de comando, o qual o apresentador teria acesso. São 4 botões:
@@ -30,7 +36,7 @@ O sistema funciona exibindo os resultados diretamente no prompt de comando, o qu
 
 4 - Reseta o jogo / Confirma que a resposta está errada
 
-A funcionalidade dos botões depende do estado em que se encontra o jogo, por exemplo, os botões 1 e 2 não retornam nada enquando pergunta não for realizada.
+A funcionalidade dos botões depende do estado em que se encontra o jogo. Por exemplo, os botões 1 e 2 não retornam nada enquando pergunta não for realizada.
 
 A equipe que pressionar o botão primeiro tem o direito da resposta, errando, a outra equipe pode responder
 
