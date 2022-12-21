@@ -104,3 +104,5 @@ Retornando ao terminal em que foi feita a conexão com a placa, basta executar o
         <p>./codigo</p>
     </blockquote>
     
+## Tratamento de colisão
+
