@@ -110,6 +110,21 @@ Retornando ao terminal em que foi feita a conexão com a placa, basta executar o
         <p>./codigo</p>
     </blockquote>
     
+## Relação (Viola pins – Linux GPIO number)
+
+Para manipular, por código, as ações e funções determinadas no hardware pelos pinos da Viola (conexões e seus elementos correspondentes), há a necessidade de conhecer suas respectivas identificações no Linux, o que é representado a seguir com alguns dos pinos:
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/52204674/208995104-8e02effc-52d1-49f5-9a51-fd6fc90efaf1.PNG" />
+</div>
+
+Adaptando ao projeto, com a utilização dos pinos demarcados em azul na tabela acima:
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/52204674/208992081-014584a0-94ab-4238-8a9d-31e741a74668.PNG" />
+</div>
+
+    
 ## Tratamento de colisão
 
 Antes de tudo, deve ficar claro que a taxa de atualização da placa é maior que a velocidade com que a pessoa pressiona o botão. Se houver uma diferença no momento de pressionar o botão, essa diferença será detectada com certeza. Supondo que os botões foram pressionados ao mesmo tempo, pela forma como o código está estruturado, o grupo 1 tem preferência, mas isso é praticamente impossível.
