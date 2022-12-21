@@ -28,7 +28,7 @@ O sistema funciona exibindo os resultados diretamente no prompt de comando, o qu
 
 3 - Informa que o participante 2 apertou o botão
 
-4 - Reseta o jogo / Comfirma que a resposta está errada
+4 - Reseta o jogo / Confirma que a resposta está errada
 
 A funcionalidade dos botões depende do estado em que se encontra o jogo, por exemplo, os botões 1 e 2 não retornam nada enquando pergunta não for realizada.
 
