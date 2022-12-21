@@ -19,6 +19,7 @@ Entrega final da disciplina de Sistemas Embarcados (SAA0356)
 - Eduardo Leandro Moura Santos Junior - 10746665
 
 ## Introdução
+
 O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no estilo pergunta e resposta. Resumidamente, o apresentador faz a pergunta e o participante/equipe que apertar o botão mais rapidamente tem o direito à responder. No nosso projeto, foram idealizados 4 botões:
 
 - 2 dedicados aos participantes, para verificar quem deles terá o direito à resposta.
@@ -28,6 +29,7 @@ O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no e
 Com o encerramento do jogo, ganha a equipe que estiver com o maior score de respostas corretas.
 
 ## Arquitetura e funcionamento
+
 O sistema funciona exibindo os resultados diretamente no prompt de comando, o qual o apresentador teria acesso. São 4 botões:
 
 1 - Apresenta a pergunta / Confirma que a resposta está correta
