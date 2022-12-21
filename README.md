@@ -38,7 +38,7 @@ O sistema funciona exibindo os resultados diretamente no prompt de comando, o qu
 
 A funcionalidade dos botões depende do estado em que se encontra o jogo. Por exemplo, os botões 1 e 2 não retornam nada enquando pergunta não for realizada.
 
-A equipe que pressionar o botão primeiro tem o direito da resposta, errando, a outra equipe pode responder
+A equipe que pressionar o botão primeiro tem o direito da resposta, errando, a outra equipe pode responder.
 
 O score das 2 equipes é atualizado a cada pergunta, acertando, soma-se 1, errando, nenhum ponto é acrescido.
 
