@@ -121,4 +121,4 @@ A continuação, se mostram algumas possíveis implementações futuras que pode
 
 - Implementação de mais botões, para que mais equipes pudessem participar.
 
-- Habilitar um placar digital para acompanhar os pontos marcados por cada equipe.
+- Habilitar uma tela digital para mostrar os pontos obtidos por cada equipe.
