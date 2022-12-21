@@ -22,7 +22,7 @@ O projeto consiste no desenvolvimento de um sistema comum em jogos de palco no e
 ## Arquitetura e funcionamento
 O sistema funciona exibindo os resultados diretamente no prompt de comando, o qual o apresentador teria acesso. São 4 botões:
 
-1 - Apresenta a pergunta / Comfirma que a resposta está correta
+1 - Apresenta a pergunta / Confirma que a resposta está correta
 
 2 - Informa que o participante 1 apertou o botão
 
