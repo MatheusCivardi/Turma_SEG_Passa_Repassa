@@ -119,7 +119,7 @@ int main() {
             //resposta do grupo 1
             if(botao_1=='1' && flag3==0) {
                 printf("resposta do grupo 1\n\n");
-                flag3++; // comentario
+                flag3++; // deposi que algum grupo apretou o botao para responder, aguarda a resposta e fala se está certa ou errada
               	grupo1++;
             }
 
@@ -158,7 +158,7 @@ int main() {
               //resposta do grupo 1 incorreta
               if(errado=='1'&&grupo1&&flag4==0) {
                 printf("resposta incorreta\n grupo 2 tenta\n");
-                flag4++; // comentario
+                flag4++; // se a resposta do grupo está errada, permite a resposta do outro grupo e verifica se a nova resposta está certa ou errada
                 while(errado=='1')
                   errado = readb(b4);
               }
