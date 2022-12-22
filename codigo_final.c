@@ -107,7 +107,7 @@ int main() {
             //mostra que a pergunta esta sendo feita
             if(flag2==0) {
             printf("pergunta...\n\n");
-            flag2++; // comentario
+            flag2++; // printar só uma veiz que precisa de fazer uma pregunta
             }      
 
             //le os botoes
