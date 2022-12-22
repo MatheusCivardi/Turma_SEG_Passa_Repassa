@@ -92,7 +92,7 @@ int main() {
             botao_inic = readb(b1);
   	    botao_rst = readb(b4);
         if(botao_inic=='1' && flag1==0)
-            flag1++;
+            flag1++; // comentario da flag
         if(botao_rst=='1' && flag1==0) {
           	printf("resetando score\n\n");
 		score1=0;
@@ -107,7 +107,7 @@ int main() {
             //mostra que a pergunta esta sendo feita
             if(flag2==0) {
             printf("pergunta...\n\n");
-            flag2++;
+            flag2++; // comentario
             }      
 
             //le os botoes
@@ -119,7 +119,7 @@ int main() {
             //resposta do grupo 1
             if(botao_1=='1' && flag3==0) {
                 printf("resposta do grupo 1\n\n");
-                flag3++;
+                flag3++; // comentario
               	grupo1++;
             }
 
@@ -158,7 +158,7 @@ int main() {
               //resposta do grupo 1 incorreta
               if(errado=='1'&&grupo1&&flag4==0) {
                 printf("resposta incorreta\n grupo 2 tenta\n");
-                flag4++;
+                flag4++; // comentario
                 while(errado=='1')
                   errado = readb(b4);
               }
