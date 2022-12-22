@@ -92,7 +92,7 @@ int main() {
             botao_inic = readb(b1);
   	    botao_rst = readb(b4);
         if(botao_inic=='1' && flag1==0)
-            flag1++; // comentario da flag
+            flag1++; // pasar de etapa de pregunta ou mostrar o score e esperar um dos grupos apretar o botao
         if(botao_rst=='1' && flag1==0) {
           	printf("resetando score\n\n");
 		score1=0;
